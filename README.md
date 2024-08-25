@@ -4,6 +4,8 @@ Este repositório contém o código-fonte de um sistema de reserva de quartos de
 
 *Principais funcionalidades:
 
--Reserva de Quartos: Permite aos clientes visualizarem a disponibilidade de quartos e realizarem reservas online.
+-Reserva de Quartos: Permite aos clientes visualizarem a disponibilidade de quartos e realizarem reservas online.	
+
 -Autenticação de Usuários: Sistema de login e registro para clientes e administradores.
+
 -Integração com Banco de Dados: Armazenamento e recuperação de dados de reservas e clientes.
