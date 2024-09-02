@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Formatação Nativa do HTML, título linguagem e links-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login de Reserva - Caminho Verde</title>
+    <link rel="stylesheet" href="/Estilos/style1.css">
+    <link rel="stylesheet" href="/Estilos/style-cadastro.css">
+    <link rel="stylesheet" href="/Estilos/style-login.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <section class="cabecalho">
+        <header class="cabecalho-header">
+            <div id="cabecalho-header-img">
+                <img src="/Imagens/Icons/hotel-bed.png" alt="Logo do hotel" id="cabecalho-header-img-logo">
+            </div>
+
+            <div id="cabecalho-header-titulo">
+                <h1 id="titulo">Caminho Verde</h1>
+                <h2 id="subtitulo">dormir bem. fazer o bem.</h2>
+            </div>
+
+            <div class="cabecalho-header-nav">
+                <nav class="navegacao">
+                    <ul>
+                        <li><a href="/Web/Paginas/home.html">Home</a></li>
+                        <li><a href="#quartos">Atendimento</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                        <li><a href="/Web/Check/cadastro.html"><button id="botao-reservar">Reservas</button></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </section>
+
+    <!-- Seção de Login -->
+    <section class="login">
+        <h2>Cadastro de Login</h2>
+        <form action="/Web/Paginas/sucesso.html" method="post">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+
+            <button type="submit" id="botao-login">Entrar na Reserva</button>
+        </form>
+            <p><a href="/Web/Check/cadastro.html" id="alterar-form">Cadastrar!</a></p>
+            <p><a href="/Web/Recuperar Senha/recuperar-senha.html" id="recuperar-senha">Esqueci minha senha</a></p>
+    </section>
+</body>
+</html>

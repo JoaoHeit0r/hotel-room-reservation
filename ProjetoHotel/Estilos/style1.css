@@ -1,0 +1,59 @@
+/* Formatação e estilização geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilização e definição de elementos gerais do corpo da página e background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('/Imagens/Background/pexels-wendywei-2959595.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed; 
+    color: #ffffff; 
+}
+/* Formatação de elementos do cabeçalho */
+.cabecalho-header {
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Cormorant Garamond', serif;
+}
+#cabecalho-header-titulo {
+  text-align: center;
+}
+#cabecalho-header-img-logo {
+    width: 120px;
+    height: auto;
+    margin-left: 10px;
+}
+#titulo {
+    color: #ffffff; font-size: 25px;
+}
+.navegacao ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navegacao ul li {
+    display: inline;
+}
+.navegacao ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+.navegacao ul li a:hover {
+    color: #ecebe8;
+}
+#botao-reservar {
+    background-color:#18681f;
+    border-radius: 10px;
+    padding: 5px;
+}

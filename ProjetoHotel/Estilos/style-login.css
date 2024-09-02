@@ -1,0 +1,68 @@
+/* Seção de Cadastro */
+.login {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.login h2 {
+    margin-bottom: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login label {
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+.login input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+#botao-login {
+    background-color: #18681f;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+    margin-bottom: 20px; /* Adiciona espaço abaixo do botão */
+}
+
+#botao-login:hover {
+    background-color: #0f4b13;
+}
+#alterar-form {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 8px; /* Espaço acima do link */
+}
+#alterar-form:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+#recuperar-senha {
+    display: inline-block;
+    color: #c03e3e;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 8px; /* Espaço acima do link */
+}
+#recuperar-senha:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}

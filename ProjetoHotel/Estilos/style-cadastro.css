@@ -1,0 +1,58 @@
+/* Seção de Cadastro */
+.cadastro {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.cadastro h2 {
+    margin-bottom: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.cadastro form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cadastro label {
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+.cadastro input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+#botao-cadastrar {
+    background-color: #18681f;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+    margin-bottom: 20px; /* Adiciona espaço abaixo do botão */
+}
+
+#botao-cadastrar:hover {
+    background-color: #0f4b13;
+}
+#alterar-form {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 8px; /* Espaço acima do link */
+}
+#alterar-form:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
